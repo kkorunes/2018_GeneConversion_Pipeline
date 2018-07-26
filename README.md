@@ -14,3 +14,6 @@ In summary, each BAM file was provided to GATK’s HaplotypeCaller to obtain ini
 
 #### Filter and parsing prior to gene conversion detection is in the subdirectory "Scripts_FilterAndFormatSNPs":
 First GATK hard filters were applied, with more stringent filters applied to the female parents. GATK "VariantsToTable" was applied to make the data easier to parse. The grandparents and male parents of each cross were checked for unexpected heterozygosity, and the flagged sites were added to offspring files, along with the genotypes from each parent.
+
+#### Scripts to scan the offspring genomes for putative gene conversion are in "Scripts_DetectGeneConversion":
+Separate scripts are provided for scanning the hemizygous male X chromosomes and the rest of the sequences (female X chromosomes and all autosomes).
