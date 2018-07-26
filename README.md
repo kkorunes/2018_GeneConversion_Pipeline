@@ -4,7 +4,7 @@ Scripts for genome alignment, SNP calling, and recombination identification.
 The same pipeline was executed on the 3 crosses, which are labeled in the scripts as: 
 * "B" (within species, homokaryotypic). 
 * "D" (within species, heterokaryotypic on the 3rd chromosome). 
-* "Interspp" (interspecies cross between D. pseudoobscura and D. persimilis).
+* "Interspecies" or "Interspp" (interspecies cross between D. pseudoobscura and D. persimilis).
 
 #### Sequence alignment scripts are contained subdirectory "Scripts_AlignmentAndPreprocessing":
 All read data from the 3 crosses were mapped to the PP1137 reference using bwa v0.7.5. After alignment, SAMtools v1.4 was used to convert to BAM, sort, and index each genome. Picard was used to mark duplicates, and the Genome Analysis Toolkit (GATK) v3.8 RealignerTargetCreator and IndelRealigner were used for local realignment around indels.
