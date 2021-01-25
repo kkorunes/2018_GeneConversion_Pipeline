@@ -1,5 +1,6 @@
 # 2018_GeneConversion_Pipeline
-Scripts for genome alignment, SNP calling, and recombination identification. 
+Scripts for genome alignment, SNP calling, and recombination identification for Korunes & Noor 2019:
+* Korunes, K. L., and M. A. F. Noor. 2019. Pervasive gene conversion in chromosomal inversion heterozygotes. *Molecular Ecology*, 28: 1302-1315. https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.14921
 
 The same pipeline was executed on the 3 crosses, which are labeled in the scripts as: 
 * "B" (within species, homokaryotypic). 
